@@ -9,7 +9,7 @@ FILE_PATH="$SCRIPT_DIR/myfirstfile"
 # Check if the file exists
 if [ -f "$FILE_PATH" ]; then
     # Read the contents of the file
-    echo "Contents of newfile1:"
+    echo "Contents of file:"
     cat "$FILE_PATH"
 else
     echo "Error: newfile1 does not exist in the current directory."
