@@ -12,5 +12,5 @@ if [ -f "$FILE_PATH" ]; then
     echo "Contents of newfile1:"
     cat "$FILE_PATH"
 else
-    echo "Error: newfile1 does not exist in the current directory."
+    echo "Error: file named newfile1 does not exist in the current directory."
 fi
